@@ -7,13 +7,14 @@ import { PanelMenuModule } from 'primeng/panelmenu';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { PanelMenuComponent } from './components/panel-menu/panel-menu.component';
-import { RegisterButtonComponent } from './components/register-button/register-button.component';
+import { ProductsComponent } from './components/products/products.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     PanelMenuComponent,
-    RegisterButtonComponent
+    ProductsComponent,
   ],
   imports: [
     BrowserModule,

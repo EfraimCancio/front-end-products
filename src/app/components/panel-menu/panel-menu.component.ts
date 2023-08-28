@@ -8,6 +8,7 @@ import { MenuItem } from 'primeng/api';
 })
 
 export class PanelMenuComponent implements OnInit {
+
   items: MenuItem[] | undefined;
 
   ngOnInit(): void {

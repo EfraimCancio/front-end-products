@@ -2,4 +2,23 @@
   display: flex;
   width: 100%;
   justify-content: center;
+  color: #6c757d;
+}
+
+.container {
+  display: flex;
+}
+
+.menu {
+
+  width: 20%;
+}
+
+.dinamic-section {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px #dee2e6 solid ;
+  margin-left: 5px;
+  color: #6c757d;
+  padding: 20px;
 }
