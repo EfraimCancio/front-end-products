@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { MegaMenuComponent } from './mega-menu.component';
+import { PanelMenuComponent } from './panel-menu.component';
 
-describe('MegaMenuComponent', () => {
-  let component: MegaMenuComponent;
-  let fixture: ComponentFixture<MegaMenuComponent>;
+describe('PanelMenuComponent', () => {
+  let component: PanelMenuComponent;
+  let fixture: ComponentFixture<PanelMenuComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [MegaMenuComponent]
+      declarations: [PanelMenuComponent]
     });
-    fixture = TestBed.createComponent(MegaMenuComponent);
+    fixture = TestBed.createComponent(PanelMenuComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
