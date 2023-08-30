@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./products.component.scss']
 })
 export class ProductsComponent {
+  constructor() {
 
+  };
+
+/*  getAllProducts = () => {
+    this.projectsService.findAll()
+    .then(products => console.log(products))
+    .catch(error => console.log(error))
+  }*/
 }
